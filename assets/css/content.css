@@ -6,3 +6,14 @@
     text-align: center;
     padding-bottom: 5%;
   }
+
+  .content h2{
+    padding-top: 25px;
+  }
+.content p{
+  padding-top: 7px;
+}
+.content ul{
+  padding-top: 10px;
+  font-size: 19px;
+}
