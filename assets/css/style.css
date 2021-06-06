@@ -3,11 +3,13 @@
     margin: 0;
 }
 
-
+body{
+  height: 100%;
+}
 
 .block-left{
     width:25%;
-    height:800px;
+    height:1px;
     overflow:auto;
     float:left;
 
@@ -15,6 +17,9 @@
 .block-right{
     overflow:auto;
     height:100%;
+}
+form, p{
+  font-size: 19px;
 }
 header{
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
@@ -27,7 +32,7 @@ header img{
 }
 footer{
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);  
- 
+  margin-top: 50px;
   text-align: center;
 }
 

@@ -2,11 +2,14 @@
 <html>
     <head>
         <title>Тренировочная страница</title>
+        <link rel="shortcut icon" href="assets\images\ico.png">
         <link rel="stylesheet" href="assets\css\navbar.css">
         <link rel="stylesheet" href="assets\css\content.css">
         <link rel="stylesheet" href="assets\css\button.css">
         <link rel="stylesheet" href="assets\css\style.css">
+        <link rel="stylesheet" href="assets\css\table.css">
         <link rel="stylesheet" type="text/css" href="assets\css\jquery.fancybox.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -18,11 +21,11 @@
             <div class="navbar">
                 <h3>Меню</h3>
                 <ul>
-                    <li><a href="">Главная</a></li>
-                    <li><a href="">История</a></li>
-                    <li><a href="">Сервисы</a></li>
-                    <li><a href="">Галерея</a></li> 
-                    <li><a href="">Автор</a></li>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="history.html">История</a></li>
+                    <li><a href="services.html">Сервисы</a></li>
+                    <li><a href="gallery.html">Галерея</a></li> 
+                    <li><a href="author.html">Автор</a></li>
                 </ul>
             </div>
         </div>
@@ -37,29 +40,57 @@
                     <br>
                     Vestibulum porta, arcu et malesuada consectetur, ipsum sem venenatis massa, ullamcorper condimentum odio nunc ut nulla. Aenean metus est, sagittis nec dictum non, convallis nec dolor. Mauris elementum dui nec eros auctor, nec sollicitudin augue hendrerit. Ut consequat luctus neque, porta consequat sem tincidunt sed. Praesent quam nibh, gravida egestas ex id, vestibulum malesuada justo. Phasellus laoreet nibh leo, eget pellentesque magna egestas nec. Fusce a urna arcu.
                     <br>
-                    Sed tempor, lectus non lacinia hendrerit, eros quam volutpat lorem, id dictum nunc risus non ligula. Vestibulum posuere lorem at diam mollis, vitae ornare sapien scelerisque. Aenean commodo aliquet nulla, nec lacinia augue cursus eget. Duis fermentum ante elit, vel lacinia risus semper et. Quisque a eleifend tellus. Maecenas ullamcorper elit at fringilla tincidunt. Sed tincidunt neque vel purus eleifend, non auctor lorem volutpat. Donec nec enim et tortor fringilla consequat. Etiam erat magna, ullamcorper vitae lectus vel, faucibus venenatis diam. Integer hendrerit ullamcorper pulvinar.</p>
- 
-                    <a class="fancybox" rel="gallery1" href="https://sun9-33.userapi.com/impg/RPVlKbH7GRQUM8YYsiT_U9o1VjRTlv-v4JR6pg/TOgJpbqtFI0.jpg?size=970x880&quality=96&sign=586c3a55c5733fffeffeaecd5fb8f727&type=album" title="Twilight Memories (doraartem)">
-                        <figure>
-                            <img src="https://sun9-33.userapi.com/impg/RPVlKbH7GRQUM8YYsiT_U9o1VjRTlv-v4JR6pg/TOgJpbqtFI0.jpg?size=970x880&quality=96&sign=586c3a55c5733fffeffeaecd5fb8f727&type=album" alt="" width="50%">
-                        </figure>
-                    </a>
-                    <form>
-                        <input type="radio" name="female">
-                        <label for="male">Молодец, мне очень понравился сайт. Ставлю оценку 5.</label><br>
-                        <input type="radio" name="female">
-                        <label for="female">Очень хороший сайт, видно что старался, ставлю 5.</label><br>
-                        <input type="radio" name="female">
-                        <label for="other">Безоговорочно 5.</label>
-                        <br>
-                        <button class="button" name="button"><a href="#zatemnenie" class="button">Отправить</a></button>
-                    </form> 
-                    <div id="zatemnenie">
-                        <div id="okno">
-                            <h4>Спасибо за ваш отзыв!</h4><br>
-                            <a href="#button" class="close">Закрыть</a>
-                        </div>
+                    Sed tempor, lectus non lacinia hendrerit, eros quam volutpat lorem, id dictum nunc risus non ligula. Vestibulum posuere lorem at diam mollis, vitae ornare sapien scelerisque. Aenean commodo aliquet nulla, nec lacinia augue cursus eget. Duis fermentum ante elit, vel lacinia risus semper et. Quisque a eleifend tellus. Maecenas ullamcorper elit at fringilla tincidunt. Sed tincidunt neque vel purus eleifend, non auctor lorem volutpat. Donec nec enim et tortor fringilla consequat. Etiam erat magna, ullamcorper vitae lectus vel, faucibus venenatis diam. Integer hendrerit ullamcorper pulvinar.
+                </p>
+
+                <hr>
+                
+                <a class="fancybox" rel="gallery1" href="https://sun9-33.userapi.com/impg/RPVlKbH7GRQUM8YYsiT_U9o1VjRTlv-v4JR6pg/TOgJpbqtFI0.jpg?size=970x880&quality=96&sign=586c3a55c5733fffeffeaecd5fb8f727&type=album" title="Twilight Memories (doraartem)">
+                    <figure>
+                        <img src="https://sun9-33.userapi.com/impg/RPVlKbH7GRQUM8YYsiT_U9o1VjRTlv-v4JR6pg/TOgJpbqtFI0.jpg?size=970x880&quality=96&sign=586c3a55c5733fffeffeaecd5fb8f727&type=album" alt="" width="50%">
+                    </figure>
+                </a>
+
+                <hr>
+
+                <form>
+                    <input type="radio" name="female">
+                    <label for="male">Молодец, мне очень понравился сайт. Ставлю оценку 5.</label><br>
+                    <input type="radio" name="female">
+                    <label for="female">Очень хороший сайт, видно что старался, ставлю 5.</label><br>
+                    <input type="radio" name="female">
+                    <label for="other">Безоговорочно 5.</label>
+                    <br>
+                    <button class="button" name="button"><a href="#zatemnenie" class="button">Отправить</a></button>
+                </form> 
+                <div id="zatemnenie">
+                    <div id="okno">
+                        <h4>Спасибо за ваш отзыв!</h4><br>
+                        <a href="#button" class="close">Закрыть</a>
                     </div>
+                </div>
+
+                <hr>
+
+                <table class="table_col">
+                 
+                    <tr>
+                      <th>Пакет</th>
+                      <th>Что входит</th>
+                    </tr>
+                    <tr>
+                      <td>Базовый пакет</td>
+                      <td>Бесплатен и предлагает тот же объём ящика электронной почты для одного пользователя, что и обычная учётная запись Gmail, возможность регистрации данного пакета закрыта. На базовый пакет не распространяется техническая поддержка Google.</td>
+                    </tr>
+                    <tr>
+                      <td>Профессиональный пакет</td>
+                      <td>Предлагает объём ящика электронной почты 30 ГБ для одного пользователя и предоставляется за 50 долларов в год за одну учётную запись пользователя. Заказчикам предоставляется техническая поддержка, API для интеграции с существующей инфраструктурой и заявляется гарантия 99,9 % времени бесперебойной работы электронной почты. Допускается отсылка на не более чем 2000 внешних адресов в день.</td>
+                    </tr>
+                    <tr>
+                      <td>Пакет для учебных заведений</td>
+                      <td>Бесплатен, включает все функции профессионального пакета, за исключением сервиса видеохостинга, с объёмом ящика электронной почты как в Базовом пакете.</td>
+                    </tr>
+                  </table>
                     
     
  
@@ -75,8 +106,6 @@
         <script src="assets\js\jquery.fancybox.min.js"></script>  
         <script src="assets\js\button.js"></script>
         <script src="assets\js\pictures.js"></script>
-
-        
     </footer>
             
        
