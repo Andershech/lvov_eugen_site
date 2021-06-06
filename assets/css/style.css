@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+.block-left{
+    width:25%;
+    height:800px;
+    overflow:auto;
+    float:left;
+
+}
+.block-right{
+    overflow:auto;
+    height:100%;
+}
+header{
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+header img{
+    padding:10px;
+    display:block;
+    margin:0 auto;
+    width:250px;
+}
+footer{
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);  
+ 
+  text-align: center;
+}
+
+footer h5{
+  padding: 10px;
+}
+
+footer h5:before {
+  content:"\00A9";
+}
+figure{
+  padding-top: 20px;
+  text-align: center;
+}
+form{
+  padding-top: 10px;
+}
+
