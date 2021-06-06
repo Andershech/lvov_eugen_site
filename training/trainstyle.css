@@ -89,9 +89,9 @@ footer{
   text-align: center;
   box-shadow: 0 px 0px rgba(0, 0, 0, 0.15);
   background-color: black;
-  color: wheat;
+  color: white;
 }
-footer span{}
+
 footer span:before {
   content:"\00A9";
 }
