@@ -1,54 +1,57 @@
-* {box-sizing: border-box; margin: 0;}
-.widget {
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
   padding: 20px;
-  border: 5px solid #f1f1f1;
+  
   background: #fff;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
 }
-.widget h3 {
+.navbar h3 {
   margin-bottom: 20px;
   text-align: center;
   font-size: 24px;
   font-weight: normal;
   color:  #424949;
 }
-.widget ul {
+.navbar ul {
   margin: 0;
   padding: 0;
   list-style: none;
   width: 250px;
 }
-.widget li {
+.navbar li {
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-.widget li:last-child {
+.navbar li:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.widget a {
+.navbar a {
   text-decoration: none;
   color:  #616a6b;
   display: inline-block;
 }
-.widget li:before {
+.navbar li:before {
   font-family: FontAwesome;
   font-size: 20px;
   vertical-align:bottom;
   color: #dd3333; 
   margin-right: 14px;
 }
-.widget li:nth-child(1):before {content:"\f1fc";}
-.widget li:nth-child(2):before {content:"\f02d";}
-.widget li:nth-child(3):before {content:"\f0ce";}
-.widget li:nth-child(4):before {content:"\f03e";}
-.widget li:nth-child(5):before {content:"\f007";}
-.widget a:hover{
+.navbar li:nth-child(1):before {content:"\f1fc";}
+.navbar li:nth-child(2):before {content:"\f02d";}
+.navbar li:nth-child(3):before {content:"\f0ce";}
+.navbar li:nth-child(4):before {content:"\f03e";}
+.navbar li:nth-child(5):before {content:"\f007";}
+.navbar a:hover{
     color: #dd3333;
-    
+    transition: 0.4s;
+
 }
 .block-left{
     width:25%;
@@ -57,7 +60,7 @@
     float:left;
 }
 .block-right{
-    width:85%;
+    width:75%;
     height:800px;
     overflow:auto;
 }
