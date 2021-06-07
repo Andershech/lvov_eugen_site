@@ -1,39 +1,39 @@
 .content{
-  margin: 5%;
+  margin:5%;
 }
   
 .content h1{
-  text-align: center;
-  padding-bottom: 5%;
+  text-align:center;
+  padding-bottom:5%;
 }
 
 .content h2{
-  padding-top: 25px;
-  border-bottom: 1px solid;
+  padding-top:25px;
+  border-bottom:1px solid;
 }
 .content p{
-  padding-top: 7px;
+  padding-top:7px;
 }
 .content ul{
-  padding-top: 10px;
-  font-size: 19px;
+  padding-top:10px;
+  font-size:19px;
 }
 
 .content iframe{
-  padding-top: 20px;
-  display: block;
-  margin: auto;
+  padding-top:20px;
+  display:block;
+  margin:auto;
   width:560px;
   height:315px;
-  text-align: center;
+  text-align:center;
 }
 
 .content img{
-  padding-top: 10px;
+  padding-top:10px;
 }
 .back-to-index{
-  width: 300px;
-  margin: auto;
+  width:300px;
+  margin:auto;
   padding-top:6px;
   border-top:1px solid;
   display:block;
@@ -50,4 +50,11 @@
   color:#dd3333;
   transition:0.4s;
 }
-  
+.content span{
+  width:300px;
+  margin:auto;
+  margin-top:10px;
+  border-top:1px solid;
+  display:block;
+  text-align:center;
+}
